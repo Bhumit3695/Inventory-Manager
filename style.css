@@ -1,0 +1,22 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; padding: 20px; }
+.container { max-width: 800px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+h1 { text-align: center; color: #1a73e8; }
+
+/* Scanner Styling */
+#reader { width: 100%; border-radius: 8px; overflow: hidden; margin-bottom: 20px; border: 2px solid #ddd; }
+
+.input-section { display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 10px; margin-bottom: 20px; }
+input { padding: 10px; border: 1px solid #ccc; border-radius: 5px; outline: none; }
+input:focus { border-color: #1a73e8; }
+#barcodeNum { background-color: #f8f9fa; font-weight: bold; }
+
+button { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+button:hover { background: #218838; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 12px; border-bottom: 1px solid #eee; text-align: left; }
+th { background-color: #f8f9fa; }
+
+.low-stock { color: #d93025; background: #fce8e6; padding: 4px 8px; border-radius: 4px; font-weight: bold; }
+.in-stock { color: #1e8e3e; background: #e6f4ea; padding: 4px 8px; border-radius: 4px; }
+.delete-btn { background: #ea4335; padding: 6px 12px; font-size: 12px; }
